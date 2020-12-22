@@ -1,4 +1,4 @@
-$('#navbar a, .wp-btn, #hamb a').on('click', function(e) {
+$('#navbar a, .wp-btn, #hamb a, #ln a').on('click', function(e) {
 	if (this.hash !== '') {
 		e.preventDefault();
 
@@ -6,7 +6,7 @@ $('#navbar a, .wp-btn, #hamb a').on('click', function(e) {
 
 		$('html, body').animate(
 			{
-				scrollTop: $(hash).offset().top - 70
+				scrollTop: $(hash).offset().top - 120
 			},
 			900
 		);

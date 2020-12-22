@@ -3,36 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Full Stack Web Developer specialised in WordPress Theme Development">
+  <meta name="description" content="Full Stack Web Developer specialised in WordPress Theme Development">
   <meta name="keywords" content="Website, Development, WordPress, Design, Web, Front-End, Full-Stack, JavaScript, PHP, Mysql, Html, Css">
   <meta name="author" content="Stevan Djordjic">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Chart.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+  <!-- Chart.JS Plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-deferred@1"></script>
 
-
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.4.0/dist/simpleParallax.min.js"></script>
  
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600&family=Inconsolata:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-
-
-
-
+  <!-- Styles -->
+  <link rel="stylesheet" href="pointer.css">
   <link rel="stylesheet" href="style.css">
+  
   <title>Full Stack Web Developer & WordPress Theme Developer based in Malta</title>
 </head>
+
 <body>
-  <header id="home-page" class="landing">
-   
-    
-  
-  <nav class="main-nav">
-    <h2><a href="index.html">Stevan Djordjic</a></h2>
+  <header id="home-page" class="landing">   
+  <nav class="secondary-nav">
     <ul>
-      <li> <a href="index.html" id="home">Home</a> </li>
-      <li> <a href="about.html">About</a> </li>
-      <li> <a href="contact.html">Contact</a> </li>
+      <li><i class="far fa-envelope"></i> Email: ketamnml@gmail.com</li>
+      <li><i class="fas fa-phone-square-alt"></i> Phone: +356 7710 5980</li>
+      <li><i class="fas fa-map-marker-alt"></i> Location: Malta, Msida</li>
+    </ul>
+  </nav>
+  <nav class="main-nav">
+    <a href="index.html"><img class="logo" src="./img/logo2.png" alt=""></a> 
+    <ul>
+      <li> <a href="index.html" id="home">HOME</a> </li>
+      <li> <a href="about.html">ABOUT</a> </li>
+      <li> <a href="contact.html">CONTACT</a> </li>
     </ul>
 
     <!-- Hamburger Menu -->
@@ -67,7 +76,7 @@
       </div>
     </div>
   </nav> 
-    <div id="head-box" >
+  <div id="head-box" >
     <div class="left-head">
       <div class="txt-head">
         <div class="glitch-box">
@@ -79,34 +88,34 @@
         <div class="glitch-box">
           <h1 class="txt-glitch">developer based in </h1>
         </div>
-          <div class="glitch-box">
-            <h1 class="txt-glitch">sunny Malta!</h1>
-          </div>
-          
-          
-          
-        <p>Technologies that I'm comfortable working with are <span class="txt-spn-a">Javascript</span>, <span class="txt-spn-a">Typescript</span>, <span class="txt-spn-a">React</span>, <span class="txt-spn-a">Node.js</span> with <span class="txt-spn-a">Express</span>, <span class="txt-spn-a">PHP</span> with <span class="txt-spn-a">Laravel</span>, and from databases <span class="txt-spn-a">MongoDB</span> and <span class="txt-spn-a">MySQL</span>.
+        <div class="glitch-box">
+          <h1 class="txt-glitch">sunny Malta!</h1>
+        </div>         
+        <p>Technologies that I'm comfortable working with are <span class="txt-spn-a">Javascript</span>, <span class="txt-spn-a">JQuery</span>, <span class="txt-spn-a">React.js</span>, <span class="txt-spn-a">Node.js</span> with <span class="txt-spn-a">Express</span>, <span class="txt-spn-a">PHP</span> with <span class="txt-spn-a">Laravel</span>, and from databases <span class="txt-spn-a">MongoDB</span> and <span class="txt-spn-a">MySQL</span>.
           Experienced in working with <span class="txt-spn-b">MERN Stack</span>  and currently employed as a <span class="txt-spn-b">WordPress Theme Developer</span>.
           I'm fast and reliable with good communication skills and fluent English. <span class="txt-spn-a"></span>
-        </p>
-        <a href="#wp" class="wp-btn">
-          <button class="btn">Projects</button></a>
-          <a href="contact.html">
-          <button class="btn btn-sec">Hire me</button></a>
+         </p>
+        <a href="#chart-section" class="wp-btn">
+        <button class="btn">DISCOVER MORE <i class="fas fa-arrow-down"></i></button></a>          
       </div>
     </div>   
     <div class="right-head">
-      <div class="img-head gsap-img02">
-        <img src="./img/profi.jpg" alt="">
+      <div class="img-head gsap-img02">       
+        <img class="hexa01" src="./img/hex01.png" alt="">
+        <img class="hexa hexa02" src="./img/hexa02.png" alt="">
+        <img class="hexa hexa03" src="./img/backend.png" alt="">
+        <img class="hexa hexa04" src="./img/vector.png" alt="">
+        <img class="hexa hexa05" src="./img/hexa03.png" alt="">
       </div>
     </div>
     <nav id="navbar" class="sec-nav">
       <ul>
-        <li> <a href="#home-page" id="home-btn" class="home-on">home</a> </li>
+        <li> <a href="#home-page" id="home-btn" class="home-on">Home</a> </li>
+        <li> <a href="#chart-section" id="chart-btn" class="chart-on">tech Chart</a> </li>
         <li> <a href="#wp" id="wp-btn" class="btn-on">Wordpress</a> </li>
-        <li> <a href="#javascript" id="js-btn" class="js-on" >javaScript</a> </li>
-        <li> <a href="" class="react-on">react.js</a> </li>
-        <li> <a href="">node.js</a> </li>
+        <li> <a href="#lp" id="lp-btn" class="lp-on">Static pages</a> </li>
+        <li> <a href="#javascript" id="js-btn" class="js-on" >JavaScript</a> </li>
+        <li> <a href="" >react.js</a> </li>
       </ul>
       <div class="social-box">
         <a href="https://github.com/plasticue" add target="_blank" class="social">
@@ -121,10 +130,22 @@
       </div>
     </nav>
   </div>
-
+  <div class="scroll-prompt" scroll-prompt="" ng-show="showPrompt" style="opacity: 1;">
+    <p>SCROLL DOWN</p>
+    <div class="scroll-prompt-arrow-container">
+        <div class="scroll-prompt-arrow"><div></div></div>
+        <div class="scroll-prompt-arrow"><div></div></div>
+    </div>     
+  </div> 
   </header>
   
-  
+<!-- Chart Section -->
+  <div id="chart-section" class="chart-bg">
+    <canvas id="myChart"></canvas>
+    <p>My upright vision of design and perfectionist nature can deliver you high-quality products in the range of technologies that I'm using and end-results. I can assist you with my knowledge and will in creating your story and be of core help in realizing your ideas, reaching your goals, or solve your technical issues.</p>
+    <h5>“A user interface is like a joke. If you have to explain it, it’s not that good.” – Unknown</h5>
+  </div>  
+
 <!-- WP Section -->
    <section id="wp" class="wptheme">
      <div class="txt-box">
@@ -133,55 +154,51 @@
           <div class="wp-box">
             <div class="glitch-box">
               <h1 class="gsap-text02">WordPress</h1>
-            </div>      
-            <img class="wp-img gsap-img01" src="./img/wp-logo.png" alt="">
+            </div>              
           </div>    
           <div class="glitch-box">
             <h1 class="gsap-text02">Theme</h1>
           </div> 
           <div class="glitch-box">
-            <h1 class="gsap-text02">Development</h1>
-          </div>  
-            
-            
+            <h1 class="gsap-text02 wp-dash">Development</h1>
+          </div>            
         </div>
         <div class="js-right gsap01">
             <p><strong>WP Theme Development</strong> is something that I do on daily basis and enjoys doing most.
               Preferably <span class="txt-spn-b">I'm coding everything from scratch </span>and use only necessary plugins.
-              Skilled and fluent in working with both <span class="txt-spn-b">PHP and Laravel</span>, and as well with <span class="txt-spn-b">MySQL database</span>.
-              
+              Skilled and fluent in working with <span class="txt-spn-b">PHP</span>, and as well with <span class="txt-spn-b">MySQL database</span>.       
             </p>
         </div>
       </div>
-       <div class="wp-tech">
-         <div class="tech-box">
-           <h2>JAVASCRIPT</h2>
-           <H2>JQUERY</H2>
-           <H2>PHP</H2>
-           <H2>MYSQL</H2>
-         </div>
-       </div>   
-       <div class="glitch-box">
-           <p class="gsap-txt">Preferably I'm <strong class="txt-spn-c">working with PDFs</strong> and I can build you everything that can be designed - <strong class="txt-spn-c">pixel perfect</strong>, but I </p> 
-       </div>
-       <div class="glitch-box">
-         <p class="gsap-txt"> can take care of the designer part as well. Note that I'm <strong class="txt-spn-c">not using any web builders</strong> like Elementor, Divi</p> 
-       </div>
-       <div class="glitch-box">
+      <div class="wp-tech">   
+        <div class="tech-box">
+          <img class="img-js" src="./img/javascript.png" alt="">
+          <img class="img-jq" src="./img/jquery.png" alt="">
+          <img class="img-m" src="./img/mysql.png" alt="">
+          <img class="img-w" src="./img/wp-logo.png" alt="">
+          <img class="img-p" src="./img/php.svg" alt="">       
+        </div>
+      </div>   
+      <div class="glitch-box">
+         <p class="gsap-txt">Preferably I'm <strong class="txt-spn-c">working with PDFs</strong> and I can build you everything that can be designed - <strong class="txt-spn-c">pixel perfect,</strong></p> 
+      </div>
+      <div class="glitch-box">
+         <p class="gsap-txt">but I can take care of the designe as well. Note that I'm <strong class="txt-spn-c">not using any web builders</strong> like Elementor, Divi</p> 
+      </div>
+      <div class="glitch-box">
           <p class="gsap-txt"> etc, and the <strong class="txt-spn-c">only plugins</strong> that I'm using are <strong class="txt-spn-c">Advanced Custom Fields (ACF)</strong> and <strong class="txt-spn-c"> Gravity Forms</strong>.</p>               
-       </div>
       </div>
-     <div class="project-box">
-       <h1 class="headline"> <span class="span-b"> 01. Yacht Hub Webpage</h1></span>
-     <div class="mid-pro project">
-       <div class="gsap02">
+    </div>
+    <div class="project-box">
+      <h1 class="headline"><span class="span-h">01. Yacht Hub Group WP Theme <i class="fas fa-caret-down"></i></span></h1>
+    <div class="mid-pro project">
+      <div class="gsap02 zoom-a">
           <img src="./img/yhg.png" alt="">
-       </div>
-       <div class="gsap03">
-          <img src="./img/yhg02.png" alt="">
-       </div>
-        
       </div>
+      <div class="gsap03 zoom-a">
+          <img src="./img/yhg02.png" alt="">
+      </div>      
+    </div>
       <div class="info-box">
         <div class="project-info">
           <div class="info-left">
@@ -205,21 +222,20 @@
         <div class="details">
             <h1>Fully dynamic Wp theme built from scratch<a href="https://github.com/plasticue/YachtHubGroup" target="_blank" class="social">
               <i class="fab fa-github fa-2x"></i>
-            </a> <a href="https://yachthubgroup.com/" target="_blank"> <button class="js-btn">visit app</button></h1></a>
+              </a> <a href="https://yachthubgroup.com/" target="_blank"> <button class="js-btn">visit app</button></h1></a>
             <p>Single page website that is heavily focused on layers, there are <span class="txt-spn-d">24 boat slots</span> with each having image slider and form.
                Even if on a first look seems small it has more than <span class="txt-spn-d">600 custom fields</span> with <span class="txt-spn-d">200 photos</span> and logos.
-               The whole<span class="txt-spn-d"> content is dynamic</span> so heavy use of ACF, for forms I used Gravity Forms.
-              
+               The whole<span class="txt-spn-d"> content is dynamic</span> so heavy use of ACF, for forms I used Gravity Forms.             
             </p>
         </div>
         </div>
         <div class="project-box">
-          <h1 class="headline"> <span class="span-b"> 02. Artist Website</h1></span>
+          <h1 class="headline"> <span class="span-h">02. Music Artist WP Theme <i class="fas fa-caret-down"></i></span></h1>
           <div class="mid-pro project">
-            <div class="gsap-img04">
+            <div class="gsap-img04 zoom-a">
               <img src="./img/plasticue.png" alt="">
             </div>
-            <div class="gsap-img05">
+            <div class="gsap-img05 zoom-a">
               <img src="./img/plasticue02.png" alt="">
             </div>             
            </div>
@@ -249,18 +265,143 @@
                 </a><a href="http://plasticue.flywheelsites.com/" target="_blank"> <button class="js-btn">visit app</button></h1></a>
                  <p>The main focus of this theme was to have modern look and to be <span class="txt-spn-d">heavily animated</span> with a lot of functionalities.
                    Besides CSS plenty of <span class="txt-spn-d">javascript and Jquery</span> libraries are used for animations like <span class="txt-spn-d">GSAP, Lightbox, Glitch</span> etc, and as well WP plugins ACF and Gravity Forms.
-
                  </p>
              </div>
           </div>
       </div>   
-   </section>
+  </section>
+
+<!--  Landing Pages  -->
+  <section id="lp" class="landing-pages">
+    <div class="landing-page-info">
+      <h2 class="landing-headline">Static Landing Pages</h2>
+      <div class="landing-page-info-box">
+         <p class="landing-gsap02">Heavily skilled in developing <span class="txt-spn-l">static and animated</span> websites with front-end technologies like <span class="txt-spn-l">JavaScript, Jquery, CSS</span> with <span class="txt-spn-l">SASS, Bootstrap</span>, etc. Sharp eye for design makes my projects <span class="txt-spn-l">pixel perfect</span> and <span class="txt-spn-l">cross-responsive</span>.</p>
+         <p class="landing-gsap02">Experienced in working with numerous JavaScript libraries like <span class="txt-spn-l">GSAP, Chart.js, Parallax.js</span>, etc, and very comfortable with exploring and working with new ones. <span class="txt-spn-l">Performance and speed</span> are not lacking and everything is <span class="txt-spn-l">optimized</span>.</p>
+      </div>   
+    </div>
+    <div class="wp-tech">     
+      <div class="tech-box">
+        <img class="img-sa" src="./img/sass.png" alt="">
+        <img class="img-b" src="./img/boots.png" alt="">
+        <img class="img-jq" src="./img/jquery.png" alt="">
+        <img class="img-js" src="./img/javascript.png" alt="">  
+        <img class="img-gs" src="./img/gsap.png" alt="">
+      </div>
+    </div> 
+
+<!-- Landing Page First Section -->
+    <h1 class="headline"> <span class="span-l"> 01. Tech Company (IIoT) Website <i class="fas fa-caret-down"></i></span></h1>
+    <p class="landing-p">Single landing page for a tech company. A mixture of being elegant and modern, as per client instructions no frameworks were included and strong focus was on having cross responsive pixel perfect design with rich typography. <span class="span-e">- SOURCE CODE -</span> <a href=""> <i class="fab fa-github fa-1x"></i> </a></p>
+    <div class="slider">
+      <div class="landing-page-headline">
+         <h3 class="landing-headline01 landing-section01"><i class="far fa-check-square"></i> Simplistic and attractive</h3>
+         <h3 class="landing-headline02 landing-section02"><i class="far fa-check-square"></i> No additional frameworks</h3>
+         <h3 class="landing-headline03 landing-section03"><i class="far fa-check-square"></i> Pixel perfect and cross responsive</h3>         
+      </div>
+      <div id="slider">  
+        <div class="slides">  
+          <img src="./img/landing1.png" width="100%" />
+        </div>         
+        <div class="slides">  
+          <img src="./img/landing3.png" width="100%" />
+        </div>          
+        <div class="slides">  
+          <img src="./img/landing4.png" width="100%" />
+        </div>          
+        <div class="slides">  
+          <img src="./img/landing5.png" width="100%" />
+        </div>         
+        <div id="dot"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+      </div>
+    </div>  
+
+ <!-- Landing Page Second Section -->   
+    <h1 class="headline"> <span class="span-l"> 02. PetShop and Grooming Salone Website <i class="fas fa-caret-down"></i></h1></span>
+    <p class="landing-p">Non-e-commerce petshop website with more than 60 pages styled with SASS precompiler. Multiple JavaScript libraries are used for animating things like GSAP,  Parallax, etc, and from frameworks, touch of JQuery is included. <span class="span-e">- SOURCE CODE -</span> <a href=""> <i class="fab fa-github fa-1x"></i> </a></p>
+    <div class="slider02">
+      <div class="landing-page-headline">
+         <h3 class="landing-headline01 landing-section04"><i class="far fa-check-square"></i> More than 60 pages</h3>
+         <h3 class="landing-headline02 landing-section05"><i class="far fa-check-square"></i> Styled with SASS</h3>
+         <h3 class="landing-headline03 landing-section06"><i class="far fa-check-square"></i> GSAP and Parallax library included</h3>         
+      </div>
+      <div id="slider02">  
+        <div class="slides02">  
+          <img src="./img/petshop.png" width="100%" />
+        </div>       
+        <div class="slides02">  
+          <img src="./img/petshop3.png" width="100%" />
+        </div>          
+        <div class="slides02">  
+          <img src="./img/petshop4.png" width="100%" />
+        </div>          
+        <div class="slides02">  
+          <img src="./img/petshop5.png" width="100%" />
+        </div>        
+        <div id="dot02"><span class="dot02"></span><span class="dot02"></span><span class="dot02"></span><span class="dot02"></span></div>
+      </div>
+    </div> 
+   
+  <!-- Landing Page Third Section -->
+    <h1 class="headline"> <span class="span-l"> 03. Photographer Portfolio Website <i class="fas fa-caret-down"></i></h1></span>
+    <p class="landing-p">Portfolio website for a professional photographer with JavaScript and JQuery. Modern design is done with SASS and animations were supported through various JS libraries. <span class="span-e">- SOURCE CODE -</span> <a href=""> <i class="fab fa-github fa-1x"></i> </a></p>
+    <div class="slider">
+      <div class="landing-page-headline">
+         <h3 class="landing-headline01 landing-section07"><i class="far fa-check-square"></i> JavaScript and JQuery</h3>
+         <h3 class="landing-headline02 landing-section08"><i class="far fa-check-square"></i> Modern and sharp design</h3>
+         <h3 class="landing-headline03 landing-section09"><i class="far fa-check-square"></i> Markup done with SASS precompiler</h3>         
+      </div>
+      <div id="slider03">  
+        <div class="slides03">  
+          <img src="./img/design.png" width="100%" />
+        </div>       
+        <div class="slides03">  
+          <img src="./img/design2.png" width="100%" />
+        </div>    
+        <div class="slides03">  
+          <img src="./img/design3.png" width="100%" />
+        </div>                  
+        <div class="slides03">  
+          <img src="./img/design5.png" width="100%" />
+        </div>           
+        <div id="dot03"><span class="dot03"></span><span class="dot03"></span><span class="dot03"></span><span class="dot03"></span></div>
+      </div>
+    </div> 
+
+    <!-- Landing Page Fourth Section 
+    <h1 class="headline"> <span class="span-l"> 04. Luxury Yacht Company Website <i class="fas fa-caret-down"></i></h1></span>
+    <p class="landing-p">Single landing page for luxury yachts company. The simple and clean look was keywords for this project with the main focus being super fast and mobile responsive. <span class="span-e">- SOURCE CODE -</span> <a href=""> <i class="fab fa-github fa-1x"></i> </a></p>
+    <div class="slider02">
+      <div class="landing-page-headline">
+         <h3 class="landing-headline01"><i class="far fa-check-square"></i> Simple. clean and elegant</h3>
+         <h3 class="landing-headline02"><i class="far fa-check-square"></i> No frameworks or libraries</h3>
+         <h3 class="landing-headline03"><i class="far fa-check-square"></i> Lightning-fast and mobile responsive</h3>         
+      </div>
+      <div id="slider04">  
+        <div class="slides04">  
+          <img src="./img/landing6.png" width="100%" />
+        </div>       
+        <div class="slides04">  
+          <img src="./img/landing7.png" width="100%" />
+        </div>    
+        <div class="slides04">  
+          <img src="./img/landing8.png" width="100%" />
+        </div>          
+        <div class="slides04">  
+          <img src="./img/landing9.png" width="100%" />
+        </div>                  
+        <div id="dot04"><span class="dot04"></span><span class="dot04"></span><span class="dot04"></span><span class="dot04"></span></div>
+      </div>
+    </div>  
+    -->
+  </section>
+
+
 
 <!--  javaScript  -->
    <section id="javascript">
      <div class="js-main-cont">
-       <div class="js-left">
-         
+       <div class="js-left">    
            <div class="glitch-box">
            <div class="js-box js-glitch-txt">  
              <h1>JavaScript</h1>
@@ -268,21 +409,20 @@
            </div>          
          </div>  
            <div class="glitch-box">
-             <h1 class="js-glitch-txt">web</h1>
+             <h1 class="js-glitch-txt">Web</h1>
            </div>
            <div class="glitch-box">
-             <h1 class="js-glitch-txt">applications</h1>
+             <h1 class="js-glitch-txt js-dash">Applications</h1>
             </div>
        </div>
        <div class="js-right">
            <p class="js-main-p"><strong>Javascript</strong> is by far my favorite programming language to use, I can build you anything from <span class="txt-spn-b">web browser games</span> to <span class="txt-spn-b">E-commerce</span> web site.
              I am comfortable <span class="txt-spn-b">working with APIs</span>, with <span class="txt-spn-b">testing</span>, working with any libraries etc.
-             Here is a display of web apps and games that I built.
-             
+             Here is a display of web apps and games that I built.          
            </p>
        </div>
      </div>
-     <h1 class="headline"> <span class="span-b"> 01. Movie-Fight - Web App</h1></span>
+     <h1 class="headline"> <span class="span-h">01. Movie Fight - Web App<i class="fas fa-caret-down"></i></span></h1>
      <div class="js-main-cont">
        <div class="js-left">
          <img class="gsap-js-img01" id="js-main-img" src="./img/moviefight.png" alt="">
@@ -299,7 +439,7 @@
          </p>
        </div>
      </div>
-     <h1 class="headline"> <span class="span-b"> 02. Expense-Tracker - Web App</h1></span>
+     <h1 class="headline"> <span class="span-h">02. Expense Tracker - Web App <i class="fas fa-caret-down"></i></span></h1>
      <div class="js-main-cont">
       <div class="js-left">
         <h2 class="js-h gsap-js-h02">Track and calculate your expenses quickly with this web app built in vanilla JavaScript<a href="https://github.com/plasticue/Expense-Tracker" target="_blank" class="social">
@@ -314,7 +454,7 @@
         <img class="gsap-js-img02" id="js-main-img" src="./img/expense.png" alt="">
       </div>
     </div>
-     <h1 class="headline"> <span class="span-b"> 03. Hangman - Web Browser Game</h1></span>
+     <h1 class="headline"> <span class="span-h">03. Hangman - Web Browser Game <i class="fas fa-caret-down"></i></span></h1>
      <div class="js-main-cont">
       <div class="js-left">
         <img class="gsap-js-img03" id="js-main-img" src="./img/hangman.png" alt="">
@@ -329,7 +469,7 @@
         </p>
       </div>
     </div>
-    <h1 class="headline"> <span class="span-b"> 04. Breakout - Web Browser Game</h1></span>
+    <h1 class="headline"> <span class="span-h">04. Breakout - Web Browser Game <i class="fas fa-caret-down"></i></span></h1>
      <div class="js-main-cont">
       <div class="js-left">
         <h2 class="js-h gsap-js-h04">Breakout game with canvas API and vanilla JavaScript<a href="https://github.com/plasticue/BreakOut-Game" target="_blank" class="social">
@@ -345,7 +485,7 @@
         <img class="gsap-js-img04" id="js-main-img" src="./img/breakout.png" alt="">
       </div>
     </div>
-    <h1 class="headline"> <span class="span-b"> 05. Speed-Typing - Web Browser game</h1></span>
+    <h1 class="headline"> <span class="span-h">05. Speed Typer - Web Browser Game <i class="fas fa-caret-down"></i></span></h1>
      <div class="js-main-cont">
        <div class="js-left">
          <img class="gsap-js-img05" id="js-main-img" src="./img/typegame.png" alt="">
@@ -355,41 +495,69 @@
           <i class="fab fa-github fa-2x"></i>
         </a> <a href="https://keen-neumann-dfbb20.netlify.app/" target="_blank"><button class="js-btn">visit app</button></h2></a>
          <p class="js-p gsap-js-p05">
-          Speed-Typer is a web browser game where you practice your <span class="span-e">typing speed</span>.
+          This is a web browser game where you practice your <span class="span-e">typing speed</span>.
           Every time you type a word <span class="span-e">correctly</span> your time left is <span class="span-e">incremented</span> for the amount of second which depends on the difficulty on which you are playing.
           The game has the option to <span class="span-e">choose between difficulties</span> easy, medium, and hard.
          </p>
        </div>
      </div>
-    
-    
+  </section>
 
+<div class="ending">
+  <h2>Did you like what you saw?</h2>
+  <h2>And you got an interesting project?</h2>
+  <h2>I can help you!</h2>
+  <a href="contact.html"><button class="btn">WORK WITH ME <i class="fas fa-arrow-right"></i></button></a>    
+</div> 
 
+<!-- Footer -->
+  <footer id="ln">
+    <a href="index.html"><img src="./img/logo2.png" alt=""></a> 
+     <nav  class="footer-nav">     
+       <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="#chart-section">Tech Chart</a></li>
+         <li><a href="about.html">About Me</a></li>
+         <li><a href="contact.html">Contact Me</a></li>
+       </ul>
+     </nav>
+     <nav class="footer-nav">
+      <ul >
+        <li><a href="#wp">WordPress</a></li>
+        <li><a href="#lp">Static Pages</a></li>
+        <li><a href="#javascript">JavaScript</a></li>
+        <li><a href="index.html">React.JS</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <p class="last-p">Stevan Djordjic &copy; 2021, All Rights Reserved</p>
 
+  <!-- Particles -->
+  <div id="particles-js"></div>   
 
-
-   </section>
-   <div id="particles-js"></div>
-     
-   </div>
-   <footer>
-     <p>Stevan Djordjic &copy: All Right Reserved</p>
-   </footer>
+   <!-- JQuery -->
    <script
    src="https://code.jquery.com/jquery-3.5.1.min.js"
    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
    crossorigin="anonymous"></script>
-
-
+   
+   <!-- GSAP -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
      
-  
+   
+   <!-- Particle JS -->
    <script src="particle.js/particles.min.js"></script>
    <script src="particle.js/app.js"></script>
 
+   <!-- Main JS --> 
+   <script src="main.js/pointer.js"></script>
+   <script src="main.js/parallax.js"></script>
+   <script src="main.js/gsap.js"></script>
+   <script src="main.js/chart.js"></script>
+   <script src="main.js/slider.js"></script>
    <script src="main.js/scroll.js"></script>
-  <script src="main.js/gsap.js"></script>
+   
   
 </body>
 </html>
