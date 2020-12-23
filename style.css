@@ -563,6 +563,7 @@ a:hover {
 	text-transform: uppercase;
 	cursor: none;
 	transition: 1s linear;
+	font-size: 13px;
 }
 .btn:hover {
 	background: rgba(120, 188, 236, 0.7);
@@ -1259,17 +1260,28 @@ footer ul li a {
 }
 
 #about {
-	padding: 4rem 2rem 2rem 2rem;
+	padding: 4rem 2rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 100%;
+}
+.about-span {
+	border-bottom: 5px dashed rgba(120, 188, 236, 0.8);
 }
 .about-box {
 	padding: 2rem;
 	background-color: rgba(32, 32, 32, 0.4);
 	box-shadow: -3px -3px 15px #252429, 3px 3px 15px #262529;
 	width: 100%;
+}
+#about h2 {
+	font-family: 'Gotham';
+
+	font-size: 3.5rem;
+	font-weight: 600;
+	padding: 3rem 0;
+	color: rgba(120, 188, 236, 0.8);
+	text-align: center;
 }
 #about h1 {
 	line-height: 2rem;
