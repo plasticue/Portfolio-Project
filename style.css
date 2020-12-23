@@ -511,6 +511,7 @@ footer img:hover {
 	right: 0;
 	padding-top: 5.5rem;
 	z-index: 999;
+	padding-bottom: 1rem;
 }
 .sec-nav ul {
 	border-right: 2px solid rgb(120, 188, 236);
