@@ -1933,6 +1933,9 @@ footer ul li a {
 	}
 }
 @media (max-width: 355px) {
+	.testimonials .card {
+		width: 340px;
+	}
 	#about h1 {
 		font-size: 1.4rem;
 		line-height: 1.4rem;
@@ -1970,6 +1973,9 @@ footer ul li a {
 	}
 }
 @media (max-width: 335px) {
+	.testimonials .card {
+		width: 320px;
+	}
 	#js-main-img {
 		width: 260px;
 		height: 200px;
