@@ -63,6 +63,51 @@ if (window.innerWidth <= minWidth02) {
 	// continue script
 
 	// hero section
+
+	gsap.to('.hexa02', {
+		xPercent: -100,
+
+		ease: 'none',
+		scrollTrigger: {
+			trigger: '.right-head',
+			// start: "top bottom", // the default values
+			// end: "bottom top",
+			scrub: true
+		}
+	});
+	gsap.to('.hexa03', {
+		xPercent: -120,
+		yPercent: 100,
+		ease: 'none',
+		scrollTrigger: {
+			trigger: '.right-head',
+			// start: "top bottom", // the default values
+			// end: "bottom top",
+			scrub: true
+		}
+	});
+	gsap.to('.hexa04', {
+		xPercent: -70,
+		yPercent: 120,
+		ease: 'none',
+		scrollTrigger: {
+			trigger: '.right-head',
+			// start: "top bottom", // the default values
+			// end: "bottom top",
+			scrub: true
+		}
+	});
+	gsap.to('.hexa05', {
+		yPercent: 100,
+		ease: 'none',
+		scrollTrigger: {
+			trigger: '.right-head',
+			// start: "top bottom", // the default values
+			// end: "bottom top",
+			scrub: true
+		}
+	});
+
 	// Text Animation
 	const textrev = gsap.timeline();
 	textrev.from('.txt-glitch', 1.3, {

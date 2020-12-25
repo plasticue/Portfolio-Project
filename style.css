@@ -251,20 +251,20 @@ header {
 	filter: drop-shadow(1px 1px 3px rgba(107, 107, 107, 0.6)) drop-shadow(-1px -1px 3px rgba(109, 109, 109, 0.6));
 }
 .hexa02 {
-	left: -9.5rem;
-	bottom: 7.5rem;
+	left: -6rem;
+	bottom: 10rem;
 }
 .hexa03 {
-	left: -8.5rem;
-	bottom: 0;
+	left: -4.5rem;
+	bottom: 5rem;
 }
 .hexa04 {
-	left: -3.5rem;
-	bottom: -6rem;
+	left: -1rem;
+	bottom: -1rem;
 }
 .hexa05 {
 	left: 5rem;
-	bottom: -9rem;
+	bottom: -5rem;
 }
 .left-head {
 	padding-left: 2rem;
@@ -1255,44 +1255,104 @@ footer ul li a {
 }
 
 /* About Page */
-#about-header {
-	background: linear-gradient(rgba(58, 53, 53, 0.4), rgba(29, 26, 26, 0.4)),
-		url('./img/aboutbg.jpg') no-repeat center center/cover;
+.body-header {
+	background: linear-gradient(90deg, rgb(36, 36, 36), rgba(126, 126, 126, 0.4)),
+		url('./img/reading.jpg') no-repeat center center/cover;
+	height: 100%;
 }
 
 #about {
-	padding: 4rem 2rem;
+	padding: 5% 2rem 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 .about-span {
-	border-bottom: 5px dashed rgba(120, 188, 236, 0.8);
+	border-bottom: 5px dashed rgb(44, 43, 43);
 }
 .about-box {
 	padding: 2rem;
-	background-color: rgba(32, 32, 32, 0.4);
-	box-shadow: -3px -3px 15px #252429, 3px 3px 15px #262529;
+	background-color: rgba(37, 37, 37, 0.4);
+	box-shadow: -4px -4px 25px rgba(31, 30, 30, 0.3), 4px 4px 25px rgba(31, 31, 31, 0.3);
 	width: 100%;
 }
 #about h2 {
-	font-family: 'Gotham';
+	font-size: 4rem;
 
-	font-size: 3.5rem;
 	font-weight: 600;
-	padding: 3rem 0;
-	color: rgba(120, 188, 236, 0.8);
+	padding: 5% 0;
+	color: rgba(230, 230, 230, 0.9);
 	text-align: center;
 }
 #about h1 {
 	line-height: 2rem;
-	color: var(--medium-gray);
+	color: rgba(230, 230, 230, 0.8);
 	width: 420px;
 }
 #about p {
 	padding-top: 1rem;
-	color: var(--light-gray);
+	color: rgba(230, 230, 230, 0.6);
 	width: 420px;
+}
+.testimonial-headline {
+	text-align: center;
+	font-size: 3rem;
+	padding: 6rem 0 0;
+}
+.testimonials {
+	margin: 50px auto 100px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 20px;
+}
+.testimonials .card {
+	position: relative;
+	width: 350px;
+	margin: 0 auto;
+	background: var(--dark-gray);
+	padding: 20px;
+	text-align: center;
+	overflow: hidden;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+.testimonials .card .about-layer {
+	position: absolute;
+	top: calc(100% - 3px);
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(120, 188, 236, 0.8);
+	z-index: 1;
+	transition: 0.5s;
+}
+.testimonials .card:hover .about-layer {
+	top: 0;
+}
+.testimonials .card .about-content {
+	z-index: 2;
+	position: relative;
+}
+.testimonials img {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	margin: 1rem;
+	border: 3px solid var(--light-gray);
+}
+.testimonials p {
+	padding: 10px;
+	font-size: 14px;
+}
+.testimonials h2 {
+	font-size: 1.5rem;
+	color: #f5f4f4;
+}
+.about-details h3 {
+	font-size: 17px;
+	color: rgb(120, 188, 236);
+}
+#about-end {
+	color: var(--light-gray);
 }
 
 /* Media Queries Wide screen */
@@ -1443,6 +1503,8 @@ footer ul li a {
 	.landing-gsap02 {
 		opacity: 1;
 		bottom: 0;
+		width: 100%;
+		padding: 10px 1.3rem;
 	}
 	.landing-page-info-box {
 		display: flex;
@@ -1650,9 +1712,16 @@ footer ul li a {
 }
 
 @media (max-width: 600px) {
+	#about h2 {
+		font-size: 2rem;
+		padding-top: 10%;
+	}
+	.testimonial-headline {
+		font-size: 2rem;
+	}
 	.main-nav .logo {
 		top: 10px;
-		left: 1.8rem;
+		left: 1.4rem;
 		width: 120px;
 	}
 
@@ -1737,6 +1806,14 @@ footer ul li a {
 	}
 }
 @media (max-width: 450px) {
+	#about h2 {
+		font-size: 1.9rem;
+		padding: 20% 15px 15%;
+		text-align: start;
+	}
+	.testimonial-headline {
+		font-size: 1.7rem;
+	}
 	.gsap01 p {
 		font-size: 16px;
 	}
@@ -1916,6 +1993,12 @@ footer ul li a {
 	.js-left h1 {
 		font-size: 40px;
 		line-height: 40px;
+	}
+}
+
+@media (min-height: 900px) {
+	#about {
+		padding-top: 10%;
 	}
 }
 
