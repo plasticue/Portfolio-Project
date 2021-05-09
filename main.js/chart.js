@@ -5,12 +5,12 @@ Chart.defaults.global.animation.duration = 3000;
 let techChart = new Chart(myChart, {
 	type: 'bar',
 	data: {
-		labels: [ 'Html', 'Css', 'JavaScript', 'JQuery', 'React.js', 'WordPress', 'Node.js', 'PHP' ],
+		labels: ['Html', 'Css/Sass', 'JavaScript', 'JQuery', 'React.js', 'WordPress', 'Node.js', 'PHP'],
 
 		datasets: [
 			{
 				label: 'Technologies',
-				data: [ 8.4, 9.2, 7, 4.4, 2.9, 6.3, 3.8, 6.1 ],
+				data: [8.4, 9.2, 6.8, 4.4, 3.5, 7.7, 2.9, 7.2],
 				backgroundColor: [
 					'#656565',
 					'#767676',

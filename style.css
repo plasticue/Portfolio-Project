@@ -245,9 +245,10 @@ header {
 	filter: drop-shadow(1px 1px 3px rgba(120, 188, 236, 0.6)) drop-shadow(-1px -1px 3px rgba(120, 188, 236, 0.6));
 }
 .hexa01 {
+	
 	padding: 0 0 5px 5px;
 	width: 250px;
-	height: 250px;
+	height: 275px;
 	filter: drop-shadow(1px 1px 3px rgba(107, 107, 107, 0.6)) drop-shadow(-1px -1px 3px rgba(109, 109, 109, 0.6));
 }
 .hexa02 {
@@ -272,18 +273,19 @@ header {
 	padding-top: 2rem;
 }
 .txt-head {
-	width: 450px;
+	width: 470px;
 	padding-top: 5rem;
 }
 .txt-head h1 {
 	padding: 0 0 0 10px;
 	color: var(--medium-gray);
-	font-family: 'Inconsolata';
+	font-family: 'Gotham';
 	letter-spacing: 0;
 	line-height: 2.3rem;
-	font-size: 2.4rem;
-	font-weight: 600;
+	font-size: 2.1rem;
+	font-weight: 500;
 	white-space: nowrap;
+	
 }
 .txt-head p {
 	font-family: 'Gotham';
@@ -856,12 +858,20 @@ a:hover {
 	position: relative;
 	opacity: 0;
 }
-.gsap-img04 {
+.gsap-img04,
+.gsap-img06,
+.gsap-img08,
+.gsap-img10,
+.gsap-img12 {
 	position: relative;
 	right: 150px;
 	opacity: 0;
 }
-.gsap-img05 {
+.gsap-img05,
+.gsap-img07,
+.gsap-img09,
+.gsap-img11,
+.gsap-img13 {
 	position: relative;
 	left: 150px;
 	opacity: 0;
@@ -1617,12 +1627,21 @@ footer ul li a {
 		position: relative;
 		opacity: 1;
 	}
-	.gsap-img04 {
+	.gsap-img04,
+	.gsap-img06,
+	.gsap-img08,
+	.gsap-img10,
+	.gsap-img12
+	 {
 		position: relative;
 		right: 0;
 		opacity: 1;
 	}
-	.gsap-img05 {
+	.gsap-img05,
+	.gsap-img07,
+	.gsap-img09,
+	.gsap-img11,
+	.gsap-img13 {
 		position: relative;
 		left: 0;
 		opacity: 1;

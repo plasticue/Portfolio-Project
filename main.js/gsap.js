@@ -209,6 +209,86 @@ if (window.innerWidth <= minWidth02) {
 		delay: 0.2,
 		x: -150
 	});
+	gsap.to('.gsap-img07', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img07',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: -150
+	});
+	gsap.to('.gsap-img06', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img06',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: 150
+	});
+	gsap.to('.gsap-img09', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img09',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: -150
+	});
+	gsap.to('.gsap-img08', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img08',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: 150
+	});
+	gsap.to('.gsap-img11', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img11',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: -150
+	});
+	gsap.to('.gsap-img10', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img10',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: 150
+	});
+	gsap.to('.gsap-img13', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img13',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: -150
+	});
+	gsap.to('.gsap-img12', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img12',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: 150
+	});
 
 	//Landing Pages Section
 
