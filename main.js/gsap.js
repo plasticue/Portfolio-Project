@@ -289,6 +289,173 @@ if (window.innerWidth <= minWidth02) {
 		delay: 0.2,
 		x: 150
 	});
+	gsap.to('.gsap-img15', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img15',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: -150
+	});
+	gsap.to('.gsap-img14', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img14',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: 150
+	});
+	gsap.to('.gsap-img17', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img17',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: -150
+	});
+	gsap.to('.gsap-img16', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img16',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: 150
+	});
+	gsap.to('.gsap-img19', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img19',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: -150
+	});
+	gsap.to('.gsap-img18', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img18',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: 150
+	});
+	gsap.to('.gsap-img21', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img21',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: -150
+	});
+	gsap.to('.gsap-img20', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img20',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: 150
+	});
+	gsap.to('.gsap-img23', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img23',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: -150
+	});
+	gsap.to('.gsap-img22', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img22',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: 150
+	});
+	gsap.to('.gsap-img25', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img25',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: -150
+	});
+	gsap.to('.gsap-img24', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img24',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: 150
+	});
+	gsap.to('.gsap-img27', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img27',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: -150
+	});
+	gsap.to('.gsap-img26', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img26',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: 150
+	});
+	gsap.to('.gsap-img29', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img29',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: -150
+	});
+	gsap.to('.gsap-img28', 2, {
+		scrollTrigger: {
+			trigger: '.gsap-img28',
+			ease: 'power2',
+			start: 'center bottom'
+		},
+		opacity: 1,
+		delay: 0.2,
+		x: 150
+	});
+
+
+
+
+
+
+
 
 	//Landing Pages Section
 
